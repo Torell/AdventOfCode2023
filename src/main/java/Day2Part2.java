@@ -22,7 +22,6 @@ public class Day2Part2 {
                 double minRed = 1;
 
                 String gameNumberRemoved = line.trim().substring(line.indexOf(":") + 1);
-                String gameNumber = line.substring(line.indexOf(" "), line.indexOf(":"));
                 String[] games = gameNumberRemoved.split(";");
                 for (String game : games) {
                     HashMap<String, Double> gameMap = new HashMap<>();
