@@ -1,3 +1,5 @@
+package Day1;
+
 import java.io.FileReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
@@ -13,7 +15,7 @@ public class Day1 {
 
 
 
-            try (BufferedReader reader = new BufferedReader(new FileReader("src/main/java/Day1.txt"))) {
+            try (BufferedReader reader = new BufferedReader(new FileReader("src/main/java/Day1.Day1.txt"))) {
                 String line;
 
                 int totalvalue = 0;
