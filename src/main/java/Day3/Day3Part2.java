@@ -6,14 +6,13 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
 
 public class Day3Part2 {
 
     double totalSum;
 
-    double tempNumber1;
-    double tempNumber2;
 
     public Day3Part2() throws IOException {
         this.totalSum = 0;
@@ -33,42 +32,34 @@ public class Day3Part2 {
             }
         }
 
-        for (int i = 0; i < dataset.length ; i++) {
-            System.out.println("------------");
+        for (int i = 0; i < dataset.length; i++) {
             for (int j = 0; j < dataset[i].length; j++) {
-                if (dataset[i][j] == '.') {
-                    continue;
-                }
-                if (isGear(dataset[i][j])) {
-                    List<Double> analyzeNumber = gearAdjacentToNumber(dataset, i, j);
-                    for (double number: analyzeNumber) {
-                        System.out.println(number);
-                    }
-                }
+               if (isGear(dataset[i][j])) {
+                   System.out.println("++++++++++++++++++++++++++++");
+                   Object[] toMultiply = gearAdjacentToNumber(dataset,i,j).toArray();
+                   if (toMultiply.length == 2) {
+                       totalSum += (Double)(toMultiply[0]) *(Double) (toMultiply[1]);
+                   }
 
-                }
+               }
             }
-            
+            System.out.println(totalSum);
         }
+    }
 
 
-
-
-
-    public List<Double> gearAdjacentToNumber(char[][] dataset, int row, int col) {
-        char[][] arrayToReturn = new char[3][7];
-        // int[] rowOffsets = {-1,-1,-1,-1,-1,-1,-1, 0, 0, 0, 0, 0, 0, 1, 1, 1,1,1,1,1};
-        //int[] colOffsets = {-3,-2,-1, 0, 1, 2, 3,-3,-2,-1, 1, 2, 3,-3,-2,-1,0,1,2,3};
+    public HashSet<Double> gearAdjacentToNumber(char[][] dataset, int row, int col) {
         int[] rowOffsets = {-1, -1, -1, 0, 0, 1, 1, 1};
         int[] colOffsets = {-1, 0, 1, -1, 1, -1, 0, 1};
-        List<Double> listOfNumbers = new ArrayList<>();
-        int counter;
+        HashSet<Double> listOfNumbers = new HashSet<>();
 
-        for (int k = 0; k < rowOffsets.length - 1; k++) {
+        for (int k = 0; k < rowOffsets.length; k++) {
+            System.out.println("------------");
             StringBuilder stringToParse = new StringBuilder();
             int adjRow = row + rowOffsets[k];
             int adjCol = col + colOffsets[k];
             if (adjRow >= 0 && adjRow < dataset.length && adjCol >= 0 && adjCol < dataset[adjRow].length) {
+                System.out.println(dataset[adjRow][adjCol]);
                 if (Character.isDigit(dataset[adjRow][adjCol])) {
                     if ((dataset[adjRow][adjCol - 1]) != '.' && !isSymbol((dataset[adjRow][adjCol - 1]))) {
                         if ((dataset[adjRow][adjCol - 2]) != '.' && !isSymbol((dataset[adjRow][adjCol - 2]))) {
@@ -79,11 +70,12 @@ public class Day3Part2 {
                     stringToParse.append(dataset[adjRow][adjCol]);
                     if ((dataset[adjRow][adjCol + 1]) != '.' && !isSymbol((dataset[adjRow][adjCol + 1]))) {
                         stringToParse.append(dataset[adjRow][adjCol + 1]);
-                    }
-                    if ((dataset[adjRow][adjCol + 2]) != '.' && !isSymbol((dataset[adjRow][adjCol + 2]))) {
-                        stringToParse.append(dataset[adjRow][adjCol + 2]);
+                        if ((dataset[adjRow][adjCol + 2]) != '.' && !isSymbol((dataset[adjRow][adjCol + 2]))) {
+                            stringToParse.append(dataset[adjRow][adjCol + 2]);
+                        }
                     }
 
+                    System.out.println(stringToParse);
                 }
                 if (!stringToParse.toString().isEmpty())
                     listOfNumbers.add(Double.parseDouble(stringToParse.toString()));
@@ -91,24 +83,17 @@ public class Day3Part2 {
 
         }
 
-        /*if (Character.isDigit((dataset[adjRow][adjCol+1]))) {
-            k++;
-            if (Character.isDigit((dataset[adjRow][adjCol+2]))) {
-                k++;
-            }
-        }
-
-         */
         if (listOfNumbers.size() == 2) {
             return listOfNumbers;
         }
-        return new ArrayList<>();
+        return new HashSet<>();
     }
 
     public boolean isGear(char input) {
         return input == '*';
 
     }
+
     public boolean isSymbol(char input) {
         return input == '*' ||
                 input == '/' ||

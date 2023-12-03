@@ -4,17 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc2c8524-0ca6-426f-83f6-1d0610c5093c" name="Changes" comment="Day 1 and 2 solved">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Day3/Day3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Day3/Day3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Day3/Day3Part2.java" afterDir="false" />
+    <list default="true" id="fc2c8524-0ca6-426f-83f6-1d0610c5093c" name="Changes" comment="day3 del2 blir galen">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Day3/Day3Part2secondTake.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Day3/Gears.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Day3/NumbersInGrid.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Day1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Day1/Day1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Day1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Day1/Day1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Day2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Day2/Day2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Day2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Day2/Day2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Day2Part2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Day2/Day2Part2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Day3/Day3Part2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Day3/Day3Part2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +65,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1701429151142</updated>
-      <workItem from="1701429152207" duration="19293000" />
+      <workItem from="1701429152207" duration="26883000" />
     </task>
     <task id="LOCAL−00001" summary="Day 1 and 2 solved">
       <option name="closed" value="true" />
@@ -86,7 +81,14 @@
       <option name="presentableId" value="LOCAL−00002" />
       <updated>1701512614647</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL−00003" summary="day3 del2 blir galen">
+      <option name="closed" value="true" />
+      <created>1701630854173</created>
+      <option name="number" value="LOCAL−00003" />
+      <option name="presentableId" value="LOCAL−00003" />
+      <updated>1701630854173</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -94,7 +96,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Day 1 and 2 solved" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day 1 and 2 solved" />
+    <MESSAGE value="day3 del2 blir galen" />
+    <option name="LAST_COMMIT_MESSAGE" value="day3 del2 blir galen" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
