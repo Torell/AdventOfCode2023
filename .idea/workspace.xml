@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc2c8524-0ca6-426f-83f6-1d0610c5093c" name="Changes" comment="day3 del2 blir galen">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Day3/Day3Part2secondTake.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Day3/Gears.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Day3/NumbersInGrid.java" afterDir="false" />
+    <list default="true" id="fc2c8524-0ca6-426f-83f6-1d0610c5093c" name="Changes" comment="Äntligen">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Day4/Day4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Day4/Day4.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Day3/Day3Part2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Day3/Day3Part2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +63,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1701429151142</updated>
-      <workItem from="1701429152207" duration="26883000" />
+      <workItem from="1701429152207" duration="30469000" />
     </task>
     <task id="LOCAL−00001" summary="Day 1 and 2 solved">
       <option name="closed" value="true" />
@@ -88,7 +86,14 @@
       <option name="presentableId" value="LOCAL−00003" />
       <updated>1701630854173</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL−00004" summary="Äntligen">
+      <option name="closed" value="true" />
+      <created>1701638886200</created>
+      <option name="number" value="LOCAL−00004" />
+      <option name="presentableId" value="LOCAL−00004" />
+      <updated>1701638886200</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -97,7 +102,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Day 1 and 2 solved" />
     <MESSAGE value="day3 del2 blir galen" />
-    <option name="LAST_COMMIT_MESSAGE" value="day3 del2 blir galen" />
+    <MESSAGE value="Äntligen" />
+    <option name="LAST_COMMIT_MESSAGE" value="Äntligen" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
