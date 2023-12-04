@@ -14,6 +14,7 @@ public class Day4 {
         Path path = Paths.get("src/main/java/Day4/Day4.txt");
         String line;
         double totalSum = 0;
+
         try(BufferedReader bufferedReader = Files.newBufferedReader(path)) {
 
             while ((line = bufferedReader.readLine()) != null) {
