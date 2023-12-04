@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc2c8524-0ca6-426f-83f6-1d0610c5093c" name="Changes" comment="tänk om">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="fc2c8524-0ca6-426f-83f6-1d0610c5093c" name="Changes" comment="Klar!">
       <change beforePath="$PROJECT_DIR$/src/main/java/Day4/Day4Part2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Day4/Day4Part2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,7 +61,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1701429151142</updated>
-      <workItem from="1701429152207" duration="38522000" />
+      <workItem from="1701429152207" duration="39315000" />
     </task>
     <task id="LOCAL−00001" summary="Day 1 and 2 solved">
       <option name="closed" value="true" />
@@ -106,7 +105,14 @@
       <option name="presentableId" value="LOCAL−00006" />
       <updated>1701694902092</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL−00007" summary="Klar!">
+      <option name="closed" value="true" />
+      <created>1701700389233</created>
+      <option name="number" value="LOCAL−00007" />
+      <option name="presentableId" value="LOCAL−00007" />
+      <updated>1701700389233</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,7 +124,8 @@
     <MESSAGE value="Äntligen" />
     <MESSAGE value="Part 1 complete" />
     <MESSAGE value="tänk om" />
-    <option name="LAST_COMMIT_MESSAGE" value="tänk om" />
+    <MESSAGE value="Klar!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Klar!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

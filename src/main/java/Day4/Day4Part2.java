@@ -62,9 +62,7 @@ public class Day4Part2 {
 
         for (int i = 0; i < listOfWinningGames.size(); i++) {
             double copyCards = listOfWinningGames.get(i)[1];
-            System.out.println("copy card: " + copyCards);
             double amountOfCards = listOfWinningGames.get(i)[0];
-            System.out.println("Amount of cards: " + amountOfCards);
             for (int j = 0; j < amountOfCards; j++) {
 
                 for (int k = i; k < i+copyCards; k++) {
@@ -77,11 +75,9 @@ public class Day4Part2 {
 
         }
 
-        System.out.println("+++++++++++++++++++++");
 
         for (Double[] games : listOfWinningGames) {
             totalSum += games[0];
-            System.out.println("----");
         }
 
         System.out.println(totalSum);
