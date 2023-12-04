@@ -59,12 +59,6 @@ public class Day4Part2 {
             e.printStackTrace();
         }
 
-        for (Double[] games : listOfWinningGames) {
-            for (double d : games) {
-                System.out.print(d + " ");
-            }
-            System.out.println("----");
-        }
 
         for (int i = 0; i < listOfWinningGames.size(); i++) {
             double copyCards = listOfWinningGames.get(i)[1];
