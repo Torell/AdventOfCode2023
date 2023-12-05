@@ -5,10 +5,10 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
-public class ReadDataAndCreateObjects {
+public class ReadDataAndCreateObjectsPart1 {
     ListOfMaps listOfMaps;
 
-    public ReadDataAndCreateObjects() throws IOException {
+    public ReadDataAndCreateObjectsPart1() throws IOException {
         this.listOfMaps = new ListOfMaps();
 
         Path path = Paths.get("src/main/java/Day5/Day5.txt");
