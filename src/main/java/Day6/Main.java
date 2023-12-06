@@ -60,8 +60,8 @@ public class Main {
         System.out.printf("%.0f%n", part2.solveForX2());
 
 
-
         System.out.println(part2.solveForX2() - part2.solveForX());
+        System.out.println("answer: " + part2.calculatePart2());
     }
 
 

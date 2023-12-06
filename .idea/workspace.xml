@@ -4,16 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc2c8524-0ca6-426f-83f6-1d0610c5093c" name="Changes" comment="before delete">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Day6/BoatRace.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Day6/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Day5/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Day5/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Day5/Map.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Day5/Map.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Day5/ReadDataAndCreateObjectsPart2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Day5/ReadDataAndCreateObjectsPart2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Day5/SeedNumberCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Day5/SeedNumberCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Day5/SeedNumberCalculator2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Day5/SeedNumberCalculator2v2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Day5/SeedNumberCalculator2v2.java" afterDir="false" />
+    <list default="true" id="fc2c8524-0ca6-426f-83f6-1d0610c5093c" name="Changes" comment="day 6 complete">
+      <change beforePath="$PROJECT_DIR$/src/main/java/Day6/BoatRace.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Day6/BoatRace.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Day6/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Day6/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +70,7 @@
       <option name="presentableId" value="Default" />
       <updated>1701429151142</updated>
       <workItem from="1701429152207" duration="40160000" />
-      <workItem from="1701764124725" duration="42380000" />
+      <workItem from="1701764124725" duration="42700000" />
     </task>
     <task id="LOCAL−00001" summary="Day 1 and 2 solved">
       <option name="closed" value="true" />
@@ -156,7 +149,14 @@
       <option name="presentableId" value="LOCAL−00011" />
       <updated>1701788418552</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL−00012" summary="day 6 complete">
+      <option name="closed" value="true" />
+      <created>1701869805167</created>
+      <option name="number" value="LOCAL−00012" />
+      <option name="presentableId" value="LOCAL−00012" />
+      <updated>1701869805167</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -172,7 +172,8 @@
     <MESSAGE value="&#10;cleaned up" />
     <MESSAGE value="day 5 part 1 klar" />
     <MESSAGE value="before delete" />
-    <option name="LAST_COMMIT_MESSAGE" value="before delete" />
+    <MESSAGE value="day 6 complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="day 6 complete" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

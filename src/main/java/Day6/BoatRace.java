@@ -61,11 +61,12 @@ public class BoatRace {
         return (time / 2.0);
     }
 
-    public double calculatePart2() {
-        double x = maxPoint();
-        double y = solveForX();
+    public int calculatePart2() {
+        //Castar till int för att runda ner
+        int x = (int) solveForX();
+        int x2 = (int)solveForX2();
 
-        return (maxPoint() - solveForX()) * 2;
+        return x2 - x;
 
 
 
