@@ -53,9 +53,11 @@ public class ReadDataAndCreateObjectsPart2 {
         for (int i = 0; i < values.size(); i++) {
             Seed seed = new Seed(values.get(i), ranges.get(i));
             listOfMaps.addToSeedList(seed);
-
         }
 
+        for (Seed seed : listOfMaps.getSeedList()) {
+            System.out.println("seedNr " + seed.getSeedNumber() + "Range: " + seed.getSeedRange());
+        }
         for (Seed seed : listOfMaps.getSeedList()) {
             System.out.println("seed nr: " + seed.getSeedNumber());
         }

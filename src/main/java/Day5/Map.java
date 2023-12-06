@@ -16,9 +16,7 @@ public class Map {
     public double convertToDestination(double input) {
 
         if (input >= this.sourceRange && input <= (sourceRange+rangeLength)) {
-            Double numberFromRange = input - sourceRange;
-            System.out.println("seed in: " + input);
-            System.out.println("seed out " + (destinationRange+numberFromRange));
+            double numberFromRange = input - sourceRange;
             return destinationRange+numberFromRange;
 
         }

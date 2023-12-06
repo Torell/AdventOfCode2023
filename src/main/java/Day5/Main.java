@@ -8,9 +8,11 @@ public class Main {
 
         ReadDataAndCreateObjectsPart2 data = new ReadDataAndCreateObjectsPart2();
         ListOfMaps listOfMaps = data.getListOfMaps();
-        listOfMaps.sort();
 
-        SeedNumberCalculator2v2 seedNumberCalculator2v2 = new SeedNumberCalculator2v2(listOfMaps);
+
+
+      //  SeedNumberCalculator seedNumberCalculator = new SeedNumberCalculator(listOfMaps);
+        SeedNumberCalculator2v2 seedNumberCalculator2v21 = new SeedNumberCalculator2v2(listOfMaps);
 
     }
 }
