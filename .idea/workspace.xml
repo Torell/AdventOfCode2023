@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc2c8524-0ca6-426f-83f6-1d0610c5093c" name="Changes" comment="day 6 complete">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Day9/DataReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Day9/Day9.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Day9/Hand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Day9/Main.java" afterDir="false" />
+    <list default="true" id="fc2c8524-0ca6-426f-83f6-1d0610c5093c" name="Changes" comment="before changing bid to integer">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Day9/DataReaderPart2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Day9/HandPart2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Day6/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Day6/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Day9/DataReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Day9/DataReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Day9/Hand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Day9/Hand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Day9/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Day9/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +62,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/Day1" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Day9" />
       <recent name="Day5" />
     </key>
   </component>
@@ -76,7 +77,7 @@
       <workItem from="1701429152207" duration="40160000" />
       <workItem from="1701764124725" duration="57495000" />
       <workItem from="1701950090893" duration="58000" />
-      <workItem from="1701956230099" duration="803000" />
+      <workItem from="1701956230099" duration="12384000" />
     </task>
     <task id="LOCAL−00001" summary="Day 1 and 2 solved">
       <option name="closed" value="true" />
@@ -169,7 +170,14 @@
       <option name="presentableId" value="LOCAL−00013" />
       <updated>1701869964544</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL−00014" summary="before changing bid to integer">
+      <option name="closed" value="true" />
+      <created>1701957158128</created>
+      <option name="number" value="LOCAL−00014" />
+      <option name="presentableId" value="LOCAL−00014" />
+      <updated>1701957158128</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -186,7 +194,8 @@
     <MESSAGE value="day 5 part 1 klar" />
     <MESSAGE value="before delete" />
     <MESSAGE value="day 6 complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="day 6 complete" />
+    <MESSAGE value="before changing bid to integer" />
+    <option name="LAST_COMMIT_MESSAGE" value="before changing bid to integer" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

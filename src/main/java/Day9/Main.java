@@ -6,7 +6,7 @@ public class Main {
 
     public static void main(String[] args) {
         String path = "src/main/java/Day9/Day9.txt";
-        DataReader dataReader = new DataReader(path);
+        DataReaderPart2 dataReader = new DataReaderPart2(path);
 
         List<Hand> listOfHands = dataReader.getListOfHands();
 
@@ -16,9 +16,12 @@ public class Main {
             System.out.println("decimal: " + hand.getEqualScoreSettler());
         }
 
+
+
+
         Collections.sort(listOfHands, Comparator.comparingDouble(Hand::getHandPower));
 
-        double counter = 1;
+        int counter = 1;
         double total = 0;
 
         for (Hand hand : listOfHands) {
@@ -29,20 +32,20 @@ public class Main {
                 System.out.println(entry.getValue() + " of " + entry.getKey()   );
             }
 
-            System.out.printf("Handpower: %f100%n",  hand.getHandPower());
+            System.out.printf("Handpower: %.10f%n",  hand.getHandPower());
             hand.setRank(counter);
 
             System.out.printf("Rank: %f100%n", hand.getRank());
             System.out.printf("bid: %f100%n", hand.getBid());
             double pointsToAdd = hand.getBid() * hand.getRank();
 
-            System.out.printf("Points to add: %f100%n", pointsToAdd);
+            System.out.printf("Points to add: %.2f%n", pointsToAdd);
             total += pointsToAdd;
-            System.out.printf("new total: %f100%n", total);
+            System.out.printf("new total: %.2f%n", total);
             counter++;
         }
 
-        System.out.printf("Total: %f100%n",  total);
+        System.out.printf("Total: %f%n",  total);
 
 
 

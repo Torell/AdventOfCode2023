@@ -5,6 +5,7 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.sql.SQLOutput;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
@@ -42,14 +43,15 @@ public class DataReader {
                     int convertedCharacter = replaceCharWithInt(c);
                     decimal = (double) convertedCharacter / counter;
                     totalDecimal += decimal;
-
+                    System.out.println(c);
+                    System.out.println(convertedCharacter);
                     System.out.println(decimal);
                     System.out.println(totalDecimal);
                     tempHand.put(convertedCharacter,tempHand.getOrDefault(convertedCharacter, 0)+1);
                     counter = counter * 1000;
                 }
 
-                Hand hand = new Hand(tempHand, Double.parseDouble(split[1]), totalDecimal);
+                Hand hand = new Hand(tempHand, Integer.parseInt(split[1]), totalDecimal);
                 listOfHands.add(hand);
 
             }

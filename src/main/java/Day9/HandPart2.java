@@ -3,7 +3,7 @@ package Day9;
 
 import java.util.*;
 
-public class Hand {
+public class HandPart2 {
 
     private LinkedHashMap<Integer, Integer> cards;
 
@@ -13,7 +13,7 @@ public class Hand {
 
     private double equalScoreSettler;
 
-    public Hand(LinkedHashMap<Integer, Integer> cards, int bid, double equalScoreSettler) {
+    public HandPart2(LinkedHashMap<Integer, Integer> cards, int bid, double equalScoreSettler) {
         this.cards = cards;
         this.bid = bid;
         this.equalScoreSettler = equalScoreSettler;
