@@ -53,6 +53,16 @@ public class Main {
  */
         // Part 2
 
+        for (int i = 0; i < part2.getTime() ; i++) {
+            if (part2.raceWin(i)) {
+                counter++;
+            }
+        }
+
+
+        System.out.println(counter);
+
+        //part 2 math
 
         System.out.println("x: ");
         System.out.printf("%.0f%n", part2.solveForX());
@@ -63,11 +73,4 @@ public class Main {
         System.out.println(part2.solveForX2() - part2.solveForX());
         System.out.println("answer: " + part2.calculatePart2());
     }
-
-
-
-
-
-
-
 }
