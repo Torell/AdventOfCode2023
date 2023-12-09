@@ -5,11 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fc2c8524-0ca6-426f-83f6-1d0610c5093c" name="Changes" comment="before changing bid to integer">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Day9/DataReaderPart2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Day9/HandPart2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Day7/Day7.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Day7/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Day8/Day8.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Day8/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Day8/Part2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Day8/Reader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Day9/Analyzer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Day9/DataReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Day9/DataReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Day9/Hand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Day9/Hand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Day9/DataReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Day7/DataReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Day9/DataReaderPart2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Day7/DataReaderPart2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Day9/Day9.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Day9/Day9.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Day9/Hand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Day7/Hand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Day9/HandPart2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Day7/HandPart2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Day9/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Day9/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -77,7 +85,8 @@
       <workItem from="1701429152207" duration="40160000" />
       <workItem from="1701764124725" duration="57495000" />
       <workItem from="1701950090893" duration="58000" />
-      <workItem from="1701956230099" duration="12384000" />
+      <workItem from="1701956230099" duration="25008000" />
+      <workItem from="1702112261413" duration="12043000" />
     </task>
     <task id="LOCAL−00001" summary="Day 1 and 2 solved">
       <option name="closed" value="true" />
@@ -177,11 +186,29 @@
       <option name="presentableId" value="LOCAL−00014" />
       <updated>1701957158128</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL−00015" summary="before changing bid to integer">
+      <option name="closed" value="true" />
+      <created>1701977988969</created>
+      <option name="number" value="LOCAL−00015" />
+      <option name="presentableId" value="LOCAL−00015" />
+      <updated>1701977988969</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Day 1 and 2 solved" />
